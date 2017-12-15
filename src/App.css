@@ -1,0 +1,16 @@
+.jumbotron {
+    background-image: url("background.jpg");
+    background-size: 100%;
+}
+.uglybutton{
+    color:white;
+}
+.jumbotext{
+    color:#5297E6;
+    background-color:black;
+    font-family: Orbitron ;
+}
+.insidetext{
+    color: #5297E6;
+    font-family: Orbitron;
+}
