@@ -1,16 +1,26 @@
 .jumbotron {
-    background-image: url("background.jpg");
+    background-image: url("https://manikantabelde.com/wp-content/uploads/2017/09/universe-2742113.jpg");
     background-size: 100%;
 }
 .uglybutton{
     color:white;
+    font-family: Orbitron;
 }
 .jumbotext{
-    color:#5297E6;
-    background-color:black;
+    color: white;
     font-family: Orbitron ;
+    background-color: black;
+    display: inline-block;
 }
 .insidetext{
-    color: #5297E6;
-    font-family: Orbitron; 
+    color: white;
+    font-family: Orbitron;
+    background-color: black;
+    display: inline-block;
 }
+/*
+h1 span {
+  display: inline-block;
+  background-color: black;
+  width: 100%;
+}*/

@@ -50,7 +50,13 @@ class App extends Component {
       <div className="App">
         <Jumbotron />
 
-        <p>{"Organic you probably haven't heard of them copper mug schlitz. Vexillologist hot chicken messenger bag, brooklyn skateboard coloring book iPhone tofu banh mi. DIY aesthetic farm-to-table artisan, selvage actually man braid yuccie. Pork belly gastropub cred bicycle rights migas, af chartreuse cliche try-hard single-origin coffee PBR&B mixtape polaroid. Tumeric cred cold-pressed portland godard beard copper mug fam. Hashtag hell of marfa, flannel fanny pack shoreditch keytar small batch four dollar toast gastropub gochujang you probably haven't heard of them."}</p>
+        <p>A meteoroid (/ˈmiːtiərɔɪd/) is a small rocky or metallic body in outer space.
+
+Meteoroids are significantly smaller than asteroids, and range in size from small grains to 1 meter-wide objects. Objects smaller than this are classified as micrometeoroids or space dust. Most are fragments from comets or asteroids, whereas others are collision impact debris ejected from bodies such as the Moon or Mars.
+
+When a meteoroid, comet, or asteroid enters Earth's atmosphere at a speed typically in excess of 20 km/s (72,000 km/h; 45,000 mph), aerodynamic heating of that object produces a streak of light, both from the glowing object and the trail of glowing particles that it leaves in its wake. This phenomenon is called a meteor or "shooting star". A series of many meteors appearing seconds or minutes apart and appearing to originate from the same fixed point in the sky is called a meteor shower. If that object withstands ablation from its passage through the atmosphere as a meteor and impacts with the ground, it is then called a meteorite.
+
+An estimated 15,000 tonnes of meteoroids, micrometeoroids and different forms of space dust enter Earth's atmosphere each year</p>
         <MeteorList asteroids={this.state.asteroids}/>
       </div>
     );
