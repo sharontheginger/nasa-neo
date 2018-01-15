@@ -24,3 +24,8 @@ h1 span {
   background-color: black;
   width: 100%;
 }*/
+
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
