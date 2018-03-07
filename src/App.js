@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './navbar.js';
 import MeteorList from './list';
 import Jumbotron from './jumbo.js'
+import Footer from './footer.js'
 import './App.css';
 
 
@@ -58,7 +59,9 @@ When a meteoroid, comet, or asteroid enters Earth's atmosphere at a speed typica
 
 An estimated 15,000 tonnes of meteoroids, micrometeoroids and different forms of space dust enter Earth's atmosphere each year</p>
         <MeteorList asteroids={this.state.asteroids}/>
+        <Footer />
       </div>
+
     );
   }
 }

@@ -1,31 +1,47 @@
 .jumbotron {
-    background-image: url("https://manikantabelde.com/wp-content/uploads/2017/09/universe-2742113.jpg");
+    background-image: url("./milkyway.jpg");
     background-size: 100%;
+    /* padding: 50px; */
 }
 .uglybutton{
     color:white;
-    font-family: Orbitron;
+    max-height: 50px;
+    padding: 10px;
+    border-radius: 7px;
 }
 .jumbotext{
-    color: white;
+    color: #AFBED1;
+    font-weight: 700;
     font-family: Orbitron ;
-    background-color: black;
     display: inline-block;
+    /* text-align: center; */
+    padding-left: 50px;
 }
 .insidetext{
     color: white;
     font-family: Orbitron;
-    background-color: black;
+    /* background-color: black; */
     display: inline-block;
 }
-/*
+
 h1 span {
   display: inline-block;
   background-color: black;
   width: 100%;
-}*/
+}
 
 p {
   padding-left: 50px;
   padding-right: 50px;
+  color: black;
+}
+
+table {
+    color: black;
+    font-weight: 500;
+}
+
+.footer-main {
+    text-align: right;
+    padding-right: 40px;
 }
