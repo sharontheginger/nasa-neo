@@ -1,7 +1,7 @@
 .jumbotron {
     background-image: url("./milkyway.jpg");
     background-size: 100%;
-    /* padding: 50px; */
+    padding: 0px 0px 50px 0px;
 }
 .uglybutton{
     color:white;
